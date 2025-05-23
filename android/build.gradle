@@ -5,16 +5,23 @@ buildscript {
         compileSdkVersion = 35
         targetSdkVersion = 35
         ndkVersion = "27.1.12297006"
-        kotlinVersion = "2.0.21"
+        kotlinVersion = "2.0.21" // This is the correct variable name you're using
+        googlePlayServicesLocationVersion = "21.0.1"
+        androidMapsUtilsVersion = "3.4.0"
     }
     repositories {
         google()
         mavenCentral()
+        maven { url "https://jitpack.io" }
     }
     dependencies {
-        classpath("com.android.tools.build:gradle")
+        classpath("com.android.tools.build:gradle:8.1.2") // Add explicit version
         classpath("com.facebook.react:react-native-gradle-plugin")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion") // Use kotlinVersion here
+        classpath("com.google.gms:google-services:4.4.2")
+    
+
+        
     }
 }
 

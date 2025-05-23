@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "199289602949",
+    "firebase_url": "https://aegis-parental-app-default-rtdb.firebaseio.com",
+    "project_id": "aegis-parental-app",
+    "storage_bucket": "aegis-parental-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199289602949:android:0632f373d89b0b4b0d7aec",
+        "android_client_info": {
+          "package_name": "com.aegis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-9pgRXNEulm88j3Twp4oAcKJZMN1dKkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

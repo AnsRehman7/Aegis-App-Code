@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Aegis</string>
+     <string name="vpn_notification_title">Aegis VPN Running</string>
+    <string name="vpn_notification_text">Content filtering is active.</string>
 </resources>

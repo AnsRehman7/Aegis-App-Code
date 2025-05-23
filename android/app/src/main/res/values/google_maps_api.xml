@@ -1,0 +1,4 @@
+<resources>
+    <!-- For OpenStreetMap -->
+    <string name="map_provider_web" translatable="false">openstreetmap</string>
+</resources>
